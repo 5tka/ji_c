@@ -1,0 +1,27 @@
+.container {
+  @include container(1300);
+}
+
+.container-sm {
+  @include container(1180);
+}
+
+.clearfix {
+  @include clearfix();
+}
+
+.fl-l {
+  float: left;
+}
+
+.fl-r {
+  float: right;
+}
+
+.title {
+  color: #4b5156;
+  font-size: 36px;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 60px;
+}
