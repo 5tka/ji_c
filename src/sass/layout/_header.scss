@@ -96,7 +96,13 @@
     background: #63bdf5;
   }
 }
-
+.intro-action{
+  .bx-wrapper{
+    box-shadow: none;
+    border: none;
+    background: none;
+  }
+}
 .intro__container {
   background-image: url("../img/intro.jpg");
   background-size: cover;

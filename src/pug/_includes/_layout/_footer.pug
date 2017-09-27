@@ -1,3 +1,49 @@
 footer.footer
-    h2 footer
+    .footer-left
+        .footer-container
+            .footer-adress  
+                span.
+                    г. Москва, <br>
+                    Киевское шоссе, д. 1
+                span
+                    a(href="tel:89267305300")
+                        | 8 (926) 730 53 00
+                    a(href="tel:89199919500")
+                        | 8 (919) 991 95 00
+                span 
+                    a(href="mailto:dsr-77@mail.ru")
+                        | dsr-77@mail.ru
+            .footer-form
+                p. 
+                    Отправьте вопрос по своему проекту <br>
+                    и получите ответ в течение 30 минут!
+                form(action="/").f-form
+                    label(for="text")
+                        input(type="text" placeholder="Вопрос")
+                    label(for="email")
+                        input(type="email" placeholder="E-mail")
+                    button(type="submit")  Отправить
+    .footer-map.wow.fadeInRight(data-wow-duration='1.3s' data-wow-delay=".3s") 
+        #map_canvas
     
+.rights 
+    .container-sm
+        span | © 2017 JL Construction - all rights reserved
+    
+
+
+.popup-form-block
+    .popup-close
+        img(src="img/close.png", alt="")
+    .popup-container
+        .popup-body
+            h3
+                | Введите контакты и получите проект <br>
+                | в Вашей нише бизнеса на почту
+        .popup-form
+            form(action="/")
+                label(for="text")
+                    input(type="text" placeholder="Вопрос")
+                label(for="email")
+                    input(type="text" placeholder="E-mail")
+                button(type="submit") Отправить

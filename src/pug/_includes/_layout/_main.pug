@@ -1,16 +1,15 @@
 section.estate
   .container
     .estate-wrapper
-      h2.title
+      h2.title.wow.fadeInUp(data-wow-duration='1s')
         | С какой недвижимостью мы работаем?
       .estate-items
-        .estate-item.estate-item-wide.wow.fadeInUp(data-wow-duration='1s')
+        .estate-item-wide.wow.fadeInUp(data-wow-duration='1s')
           .estate-content
             p
               | Мы занимаемся строительством, обустройством и ремонтом помещений для 
               | бизнеса разных направлений, независимо от состояния  и параметров объекта.
-        //- .wow.fadeInUp(data-wow-duration='1s' data-wow-delay=".5s")
-        .estate-item
+        .estate-item.wow.fadeInUp(data-wow-duration='1s' data-wow-delay=".5s")
           .est-img
             img(src="img/e-i/i1.jpg", alt="")
           .estate-content
@@ -19,42 +18,42 @@ section.estate
                 li Магазины
                 li Торговые центры
                 li Аптеки
-        .estate-item
+        .estate-item.wow.fadeInUp(data-wow-duration='1s' data-wow-delay=".6s")
           .est-img
             img(src="img/e-i/i2.jpg", alt="")
           .estate-content
             .est-dscr
               ul
                 li Офисы
-        .estate-item
+        .estate-item.wow.fadeInUp(data-wow-duration='1s' data-wow-delay=".7s")
           .est-img
             img(src="img/e-i/i3.jpg", alt="")
           .estate-content
             .est-dscr
               ul
                 li Шоурумы и склады
-        .estate-item
+        .estate-item.wow.fadeInUp(data-wow-duration='1s' data-wow-delay=".8s")
           .est-img
             img(src="img/e-i/i4.jpg", alt="")
           .estate-content
             .est-dscr
               ul
                 li Спортивные клубы
-        .estate-item
+        .estate-item.wow.fadeInUp(data-wow-duration='1s' data-wow-delay=".9s")
           .est-img
             img(src="img/e-i/i5.jpg", alt="")
           .estate-content
             .est-dscr
               ul
                 li Исторические памятники
-        .estate-item
+        .estate-item.wow.fadeInUp(data-wow-duration='1s' data-wow-delay="1s")
           .est-img
             img(src="img/e-i/i1.jpg", alt="")
           .estate-content
             .est-dscr
               ul
                 li Гостиницы
-        .estate-item
+        .estate-item.wow.fadeInUp(data-wow-duration='1s' data-wow-delay="1.1s")
           .est-img
             img(src="img/e-i/i7.jpg", alt="")
           .estate-content
@@ -65,49 +64,93 @@ section.estate
 
 section.offer
   .container
-    h2.title
+    h2.title.wow.fadeInUp(data-wow-duration='1s')
       | Что мы предлагаем?
   .offer-items
     .offer-item
-      .o-img
-      .o-dscr
+      .o-img.wow.slideInLeft(data-wow-duration='1.5s')
+      .o-dscr.wow.slideInRight(data-wow-duration='1s' data-wow-delay=".3s")
         p
           | Проектирование здания и инженерных систем  
     .offer-item
-      .o-dscr
+      .o-dscr.wow.slideInLeft(data-wow-duration='1s' data-wow-delay=".3s")
         p
-          | Проектирование здания и инженерных систем          
-      .o-img
+          | Дизайн-проекты с 3D-визуализацией       
+      .o-img.wow.slideInRight(data-wow-duration='1.5s' data-wow-delay=".3s")
     .offer-item
-      .o-img
-      .o-dscr
+      .o-img.wow.slideInLeft(data-wow-duration='1.5s' data-wow-delay=".3s")
+      .o-dscr.wow.slideInRight(data-wow-duration='1s' data-wow-delay=".3s")
         p
-          | Проектирование здания и инженерных систем
+          | Строительные работы
     .offer-item
-      .o-dscr
+      .o-dscr.wow.slideInLeft(data-wow-duration='1s' data-wow-delay=".3s")
         p
-          | Проектирование здания и инженерных систем          
-      .o-img
+          | Проведение коммуникаций и монтаж техники         
+      .o-img.wow.slideInRight(data-wow-duration='1.5s' data-wow-delay=".3s")
     .offer-item
-      .o-img
-      .o-dscr
+      .o-img.wow.slideInLeft(data-wow-duration='1.5s' data-wow-delay=".3s")
+      .o-dscr.wow.slideInRight(data-wow-duration='1s' data-wow-delay=".3s")
         p
-          | Проектирование здания и инженерных систем
+          | Внутренняя отделка, комплектация мебелью
     .offer-item
-      .o-dscr
+      .o-dscr.wow.slideInLeft(data-wow-duration='1s' data-wow-delay=".3s")
         p
-          | Проектирование здания и инженерных систем          
-      .o-img    
+          | Реставрация архитектурных объектов          
+      .o-img.wow.slideInRight(data-wow-duration='1.5s' data-wow-delay=".3s") 
     .offer-item
-      .o-img
-      .o-dscr
+      .o-img.wow.slideInLeft(data-wow-duration='1.5s' data-wow-delay=".3s")
+      .o-dscr.wow.slideInRight(data-wow-duration='1s' data-wow-delay=".3s")
         p
-          | Проектирование здания и инженерных систем
+          | Ремонт и перепланировка
     .offer-item
-      .o-dscr
+      .o-dscr.wow.slideInLeft(data-wow-duration='1s' data-wow-delay=".3s")
         p
-          | Проектирование здания и инженерных систем          
-      .o-img    
+          | Поставка материалов      
+      .o-img.wow.fadeInRight(data-wow-duration='1.5s')  
+- var freeList = ['Разработка планировки', '3D-проект', 'Строительство под ключ', 'Внутренняя отделка', 'Проведение коммуникаций', 'Установка техники', 'Комплектация мебелью/дизайн интерьера','Отделка фасадов/реставрация', 'Ремонт/перепланировка']
+section.form-section
+  .free-count
+    .free-count-form-wrapper
+      .f-c-f-wrapper
+        p.
+          Получите бесплатный расчет стоимости <br>
+          и сроков вашего проекта!
+        form(action="/").count-from
+          label(for="select").select-label
+            select.select
+              option(value="Укажите тип здания") Укажите тип здания
+              option(value="Здания 1") Здания 1
+              option(value="Здания 2") Здания 2
+              option(value="Здания 3") Здания 3
+              option(value="Здания 4") Здания 4
+          label(for="input").input-label
+            input.select-input(type="text" placeholder="Площадь кв. м")
+      .free-count-list
+        span Доп. услуги
+        ul
+          each item in freeList
+            li
+              .pretty.smooth.success
+                input(type='checkbox')
+                label
+                  i.default
+                = item
+  .form-wrapper.wow.fadeInRight(data-wow-duration='1s')
+    .form-container
+      span.wow.fadeInRight(data-wow-duration='1s' data-wow-delay=".8s")
+        |Заполните форму
+      p.wow.fadeInRight(data-wow-duration='1s' data-wow-delay=".8s").
+        и мы подготовим для вас индвидуальное коммерческое
+        предложение со сметой на каждый этап работы
+      form(action="/").result-form.wow.fadeInUp(data-wow-duration='1.2s' data-wow-delay="1s")
+        label(for="input")
+          input(type="text" placeholder="Телефон")
+        label(for="input")
+          input(type="email"  placeholder="E-mail")
+        button(type="submit") Получить расчет
+
+
+
 
 section.project
   .container-sm
@@ -115,25 +158,28 @@ section.project
       | Выполненные проекты
     .controls-wrap
       ul.controls-list
-        li.controls-item
-          a(href="#").controls-link 
+        li.controls-item(data-filter="all")
+          a(href="javascript:void(0)").controls-link
             |Все проекты
-        li.controls-item
-          a(href="#").controls-link 
+        li.controls-item(data-filter=".a")
+          a(href="javascript:void(0)").controls-link
             |Комплекс
-        li.controls-item
-          a(href="#").controls-link 
+        li.controls-item(data-filter=".b") 
+          a(href="javascript:void(0)").controls-link
             |Проектирование
-        li.controls-item
-          a(href="#").controls-link 
+        li.controls-item(data-filter=".c")
+          a(href="javascript:void(0)").controls-link
             |Генподряд
-        li.controls-item
-          a(href="#").controls-link 
+        li.controls-item(data-filter=".d")
+          a(href="javascript:void(0)").controls-link
             |Реконструкция
-    .project-items
-      .project-item
+    .project-items.wow.fadeInUp(data-wow-duration='1s' data-wow-delay=".2s")
+      .project-item.mix.c
         .p-img
-          img(src="img/proj/p1.jpg", alt="")
+          img(src="img/proj/p1/p1.jpg", alt="")
+          img(src="img/proj/p1/p2.jpg", alt="")
+          img(src="img/proj/p1/p3.jpg", alt="")
+          img(src="img/proj/p1/p4.jpeg", alt="")
         .p-dscr
           .p-content
             h4
@@ -143,7 +189,7 @@ section.project
               li 2 000 м2
               li 4 месяца
 
-      .project-item
+      .project-item.mix.a
         .p-dscr
           .p-content
             h4
@@ -156,10 +202,16 @@ section.project
               li 120 м2
               li 1 месяц
         .p-img
-          img(src="img/proj/p2.jpg", alt="")
-      .project-item
+          img(src="img/proj/p2/p1.jpg", alt="")
+          img(src="img/proj/p2/p2.jpg", alt="")
+          img(src="img/proj/p2/p3.jpg", alt="")
+          img(src="img/proj/p2/p4.jpg", alt="")
+      .project-item.mix.b
         .p-img
-          img(src="img/proj/p3.jpg", alt="")
+          img(src="img/proj/p3/p1.jpg", alt="")
+          img(src="img/proj/p3/p2.jpg", alt="")
+          img(src="img/proj/p3/p3.jpg", alt="")
+          img(src="img/proj/p3/p4.jpg", alt="")
         .p-dscr
           .p-content
             h4
@@ -172,7 +224,7 @@ section.project
               li 2 500 м2
               li 2 месяца
 
-      .project-item
+      .project-item.mix.d
         .p-dscr
           .p-content
             h4
@@ -182,7 +234,12 @@ section.project
               li 1 500 м2
               li 30 дней
         .p-img
-          img(src="img/proj/p4.jpg", alt="")
+          img(src="img/proj/p4/p1.jpg", alt="")
+          img(src="img/proj/p4/p2.jpg", alt="")
+          img(src="img/proj/p4/p3.jpg", alt="")
+          img(src="img/proj/p4/p4.jpg", alt="")
+          img(src="img/proj/p4/p5.jpg", alt="")
+          img(src="img/proj/p4/p6.jpg", alt="")
       a(href="#").btn Больше примеров
 
 
@@ -190,13 +247,13 @@ section.result
   .container-sm  
     h2.title
       | Что вы получите в результате?
-    .result-intro 
+    .result-intro.wow.zoomIn(data-wow-duration='1s') 
       p.
         Обратившись к нам, вы получаете не просто помещение, а площадку для развития собственного бизнеса.<br>
         Ваше здание выгодно выделится на фоне других столичных объектов коммерческой недвижимости, <br>
         так как в своей работе мы придерживаемся трех ключевых принципов.
     .result-items
-      .result-item
+      .result-item.wow.fadeInUp(data-wow-duration='1s' data-wow-delay=".3s")
         .r-img
           img(src="img/result/r1.jpg", alt="")
         .r-dscr 
@@ -204,7 +261,7 @@ section.result
             Наличие собственного отдела проектирования позволяет нам работать вне рамок шаблонного 
             строительства. Реализации нестандартной планировки предшествует разработка 
             индивидуального проекта. Оформлением фасадов занимается старший дизайнер.
-      .result-item
+      .result-item.wow.fadeInUp(data-wow-duration='1s' data-wow-delay=".3s")
         .r-dscr 
           p.
             Дизайнер интерьера поможет с выбором внутреннего наполнения, учитывая предназначение 
@@ -212,7 +269,7 @@ section.result
             и российских брендов отвечает отдел поставки и снабжения.
         .r-img
           img(src="img/result/r2.jpg", alt="")
-      .result-item
+      .result-item.wow.fadeInUp(data-wow-duration='1s' data-wow-delay=".3s")
         .r-img
           img(src="img/result/r3.jpg", alt="")
         .r-dscr 
@@ -221,12 +278,12 @@ section.result
             функционален. Мы заботимся о слаженной работе техники, оптимальном микроклимате 
             в помещении и эргономичной планировке.оекта. Оформлением фасадов занимается старший дизайнер.
 
-    .result-intro 
+    .result-intro.wow.zoomIn(data-wow-duration='1s') 
       p.
         В рамках каждого проекта мы создаем бесплатную 3D-визуализацию, что позволяет заранее <br>
         согласовать все нюансы планировки и оформления. <br>
         Получите пример 3D-проекта в своей нише и бесплатную консультацию дизайнера!
-      a(href="#").btn Получить 3D-проект
+      a(href="#").btn.popup-open Получить 3D-проект
 
 section.team
   h2.title
@@ -234,7 +291,7 @@ section.team
   .team-container
     .container
       .team-wrapper
-        .team-left
+        .team-left.wow.fadeInLeft(data-wow-duration='1.3s' data-wow-delay=".3s")
           p.
             В лице нашей компании вы получаете 
             не просто надежного застройщика.
@@ -248,12 +305,16 @@ section.team
             li Строительства
             li Контроля качества 
             li Тендерный отдел
-        .team-slider
-          #team_slider
+        .team-slider.wow.zoomIn(data-wow-duration='1s' data-wow-delay="2s") 
+          .id-team_slider.id-team_slider-larger
             img(src="img/result/sl1.jpg", alt="")
             img(src="img/result/sl2.jpg", alt="")
             img(src="img/result/sl2.jpg", alt="")
-        .team-right
+          .id-team_slider-mini
+            img(src="img/result/sl1.jpg", alt="")
+            img(src="img/result/sl2.jpg", alt="")
+            img(src="img/result/sl2.jpg", alt="")
+        .team-right.wow.fadeInRight(data-wow-duration='1.3s' data-wow-delay="1s")
           p.
             Обратившись к нам, вы получаете 
             не просто помещение, а площадку 
@@ -268,3 +329,116 @@ section.team
             Образцы всех материалов представлены 
             в нашем московском шоу-руме 
             площадью 500 м2.
+
+
+section.profitable 
+  h2.title
+    | Почему работать с нами удобно и выгодно?
+  .container-sm
+    .profitable-wrapper
+      .profitable-items
+        .profitable-item.wow.fadeInLeft(data-wow-duration='1.3s' data-wow-delay=".3s")
+            .prof-img
+              img(src="img/prof/p1.jpg", alt="")
+            .prof-dscr
+              p.
+                Официальное дистрибьюторство, налаженная система <br>
+                логистики и наличие 2-х складов в Москве позволяют <br>
+                нам поставлять продукцию в оговоренные сроки <br>
+                и постоянно обновлять ассортимент.
+            .prof-count
+              span 
+                | 1
+        .profitable-item.wow.fadeInRight(data-wow-duration='1.3s' data-wow-delay=".5s")
+            .prof-count
+              span 
+                | 2
+            .prof-dscr
+              p.
+                Предоставляем бесплатные консультации по дизайну <br>
+                и ремонту, помощь в выборе материалов, готовы <br>
+                приехать к вам бесплатно в любой день <br>
+                и независимо от времени суток.  
+            .prof-img
+              img(src="img/prof/p2.jpg", alt="")
+        .profitable-item.wow.fadeInLeft(data-wow-duration='1.3s' data-wow-delay=".7s")
+            .prof-img
+              img(src="img/prof/p3.jpg", alt="")
+            .prof-dscr
+              p.
+                Являемся партнерами надежных финансовых <br>
+                организаций, за счет чего каждый наш клиент может <br>
+                получить комплекс услуг в кредит и ускорить <br>
+                процесс реализации объекта.
+            .prof-count
+              span 
+                | 3
+
+section.partners
+  h2.title
+    | Наши партнеры
+  .container
+    .partners-items
+      .part-slide
+        img(src="img/part/p1.png", alt="")
+        img(src="img/part/p2.jpg", alt="")
+        img(src="img/part/p3.jpg", alt="")
+        img(src="img/part/p4.jpg", alt="")
+        img(src="img/part/p5.jpg", alt="")
+        img(src="img/part/p6.jpg", alt="")
+        img(src="img/part/p7.jpg", alt="")
+        img(src="img/part/p8.png", alt="")
+
+section.guarantees
+  h2.title  
+    | Гарантии
+  .container
+    .guarantees-intro
+      .g-img
+        img(src="img/gar/g.jpg", alt="")
+      .g-dscr
+        p.
+          Авторский и технический надзор гарантирует соответствие реализованного <br>
+          объекта проекту и обеспечивает контроль качества без вашего участия.
+        p.
+          На все работы предоставляется 3-летняя гарантия и страховка.
+        p.
+          Мы являемся официальными дистрибьюторами мировых производителей <br>
+          строительных материалов, техники и мебели. Обращаясь к нам за полной <br>
+          комплектацией помещения, вы получаете гаратию на все товары от производителя.
+
+section.feedback
+  h2.title
+    | Что говорят наши клиенты?
+  .container-sm.wow.fadeInLeft(data-wow-duration='1.3s' data-wow-delay=".3s")
+    .feedback-slider
+      .feedback-slide
+        .f-content
+          .f-dscr
+            p.
+              Работы осуществляются на высоком профессиональном уровне с привлечением 
+              высококлассных специалистов и инженерно-технического персонала, а также 
+              с использованием передовой технологии и современных строительных материалов
+          .f-name
+            .name
+              span
+                | Атя Ромашко
+              p
+                | представитель компании “Берлога”
+        .f-img
+          img(src="img/feedback/f1.jpg", alt="")
+      .feedback-slide
+        .f-content
+          .f-dscr
+            p.
+              Работы осуществляются на высоком профессиональном уровне с привлечением 
+              высококлассных специалистов и инженерно-технического персонала, а также 
+              с использованием передовой технологии и современных строительных материалов
+          .f-name
+            .name
+              span
+                | Атя Ромашко
+              p
+                | представитель компании “Берлога”
+        .f-img
+          img(src="img/feedback/f1.jpg", alt="")

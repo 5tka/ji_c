@@ -17,8 +17,15 @@
     "bPopup": "bpopup#latest",
     "jquery": "1.12.0",
     "normalize-css": "latest",
-    "owl.carousel": "latest",
-    "animate.css": "^3.5.2"
+    "owl.carousel": "OwlCarousel2#^2.2.1",
+    "animate.css": "^3.5.2",
+    "slick-carousel": "^1.8.0",
+    "mixitup": "^3.2.1",
+    "jquery-lazy": "^1.7.5",
+    "vanilla-lazyload": "^10.3.0",
+    "pretty-checkbox": "^2.2.1",
+    "font-awesome": "Font-Awesome#^4.7.0",
+    "jquery-selectric": "^1.13.0"
   },
   "devDependencies": {
     "bxslider-4": "^4.2.5",

@@ -4,7 +4,7 @@ header.header
     .header__top-line
       .logo
         a(href="#")
-          img(src="../img/logo.png", alt="")
+          img(src="img/logo.png", alt="")
       .header__nav
         ul.header__list
           each item in headerList
@@ -13,18 +13,33 @@ header.header
       .feedbackArea
         a.tel(href="tel:89267305300")
           | 8 (926) 730 53 00
-        a(href="#").btn-s
+        a(href="#").btn-s.popup-open
           | Заказать звонок
-  .intro__container
-    .intro__content
-      .container-sm
-        .intro-text
-          h1
-            | Комплексное обустройство <br>
-            | коммерческой недвижимости <br>
-            | в Москве
-          p
-            | Полный спектр строительных и отделочных работ: <br>
-            | от создания проекта до дизайна интерьера
-          a(href="#").btn-i
-            | Отправить заявку на выезд специалиста
+  .intro-action
+    .intro-slider
+      .intro__container
+        .intro__content
+          .container-sm
+            .intro-text
+              h1
+                | Комплексное обустройство <br>
+                | коммерческой недвижимости <br>
+                | в Москве
+              p
+                | Полный спектр строительных и отделочных работ: <br>
+                | от создания проекта до дизайна интерьера
+              a(href="#").btn-i.popup-open
+                | Отправить заявку на выезд специалиста
+      //- .intro__container
+      //-   .intro__content
+      //-     .container-sm
+      //-       .intro-text
+      //-         h1
+      //-           | Комплексное обустройство <br>
+      //-           | коммерческой недвижимости <br>
+      //-           | в Москве
+      //-         p
+      //-           | Полный спектр строительных и отделочных работ: <br>
+      //-           | от создания проекта до дизайна интерьера
+      //-         a(href="#").btn-i
+      //-           | Отправить заявку на выезд специалиста

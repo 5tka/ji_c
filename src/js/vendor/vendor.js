@@ -1,19 +1,10 @@
 //="../../../bower_components/jquery/dist/jquery.js"
 //="../../../bower_components/wow/dist/wow.js"
-/*!
- * Waterwheel Carousel
- * Version 2.3.0
- * http://www.bkosborne.com
- *
- * Copyright 2011-2013 Brian Osborne
- * Dual licensed under GPLv3 or MIT
- * Copies of the licenses have been distributed
- * with this plugin.
- *
- * Plugin written by Brian Osborne
- * for use with the jQuery JavaScript Framework
- * http://www.jquery.com
- */
+//="../../../bower_components/bxslider-4/dist/jquery.bxslider.js"
+//="../../../bower_components/slick-carousel/slick/slick.js"
+//="../../../bower_components/mixitup/dist/mixitup.min.js"
+//="../../../bower_components/jquery-selectric/public/jquery.selectric.js"
+//="../../../bower_components/bPopup/jquery.bpopup.js"
 ;(function ($) {
   'use strict';
 
