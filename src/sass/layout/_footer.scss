@@ -77,6 +77,18 @@
                 background: #3da4e5;
             }
         }
+        textarea{
+            height: 100px;
+            resize: none;
+            width: 100%;
+            border: 1px solid #f1f4f6;
+            border-radius: 2px;
+            font-size: 14px;
+            line-height: 20px;
+            color: #76868f;
+            padding: 15px 25px;
+            outline: none;
+        }
     }
     p {
         margin-bottom: 25px;
